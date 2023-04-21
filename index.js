@@ -58,7 +58,116 @@ document.addEventListener("DOMContentLoaded", function () {
                 },
               ],
             },
-
+            customerName: {
+              dataUnitCode: "bb64fec4-6113-444a-b7f3-95b8f3298167",
+              dataUnitName: "customerName",
+              dataUnitType: "string",
+              dataUnitLabel: "customer name",
+              dataUnitValue: "navin ogale",
+              dataUnitAttribute: null,
+              dataUnitError: null,
+              coreValidationMatrixList: [
+                {
+                  id: 46,
+                  dataUnitCode: "customerName",
+                  validationCode: "alphabet",
+                },
+                {
+                  id: 47,
+                  dataUnitCode: "customerName",
+                  validationCode: "notnull",
+                },
+              ],
+            },
+            email: {
+              dataUnitCode: "e384290f-7606-44dd-837d-eb893e7dfa15",
+              dataUnitName: "email",
+              dataUnitType: "string",
+              dataUnitLabel: "email",
+              dataUnitValue: "navin.ogale@gmail.com",
+              dataUnitAttribute: null,
+              dataUnitError: null,
+              coreValidationMatrixList: [
+                {
+                  id: 54,
+                  dataUnitCode: "email",
+                  validationCode: "email",
+                },
+                {
+                  id: 55,
+                  dataUnitCode: "email",
+                  validationCode: "notnull",
+                },
+              ],
+            },
+            invoiceAmount: {
+              dataUnitCode: "1d0ca365-d8a6-48b1-a1c0-dfd1bfc41c05",
+              dataUnitName: "invoiceAmount",
+              dataUnitType: "string",
+              dataUnitLabel: "Invoice Amount",
+              dataUnitValue: "100",
+              dataUnitAttribute: null,
+              dataUnitError: null,
+              coreValidationMatrixList: [
+                {
+                  id: 52,
+                  dataUnitCode: "invoiceAmount",
+                  validationCode: "numeric",
+                },
+                {
+                  id: 53,
+                  dataUnitCode: "invoiceAmount",
+                  validationCode: "notnull",
+                },
+              ],
+            },
+            nilkamalSapCustomerCode: {
+              dataUnitCode: "a6804cb5-7684-4ed8-92ac-1e5d0fa1fea6",
+              dataUnitName: "nilkamalSapCustomerCode",
+              dataUnitType: "string",
+              dataUnitLabel: "Nilkamal SAP Customer Code",
+              dataUnitValue: "cust01",
+              dataUnitAttribute: null,
+              dataUnitError: null,
+              coreValidationMatrixList: [
+                {
+                  id: 48,
+                  dataUnitCode: "nilkamalSapCustomerCode",
+                  validationCode: "alphanumeric",
+                },
+                {
+                  id: 49,
+                  dataUnitCode: "nilkamalSapCustomerCode",
+                  validationCode: "notnull",
+                },
+              ],
+            },
+            mobileNumber: {
+              dataUnitCode: "2bfbdc56-722d-4da7-ab15-ee0e5698e752",
+              dataUnitName: "mobileNumber",
+              dataUnitType: "string",
+              dataUnitLabel: "mobile number",
+              dataUnitValue: "8087792116",
+              dataUnitAttribute: null,
+              dataUnitError: null,
+              coreValidationMatrixList: [
+                {
+                  id: 56,
+                  dataUnitCode: "mobileNumber",
+                  validationCode: "numeric",
+                },
+                {
+                  id: 57,
+                  dataUnitCode: "mobileNumber",
+                  validationCode: "10_digit",
+                },
+                {
+                  id: 58,
+                  dataUnitCode: "mobileNumber",
+                  validationCode: "notnull",
+                },
+              ],
+            },
             invoiceNumber: {
               dataUnitCode: "ad88d979-4f85-4bad-b135-0615c433d200",
               dataUnitName: "invoiceNumber",

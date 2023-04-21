@@ -1,0 +1,12 @@
+#my-form {
+  display: flex;
+  flex-direction: column;
+}
+.input-textbox-nitin {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.select-nitin {
+  width: 90%;
+}

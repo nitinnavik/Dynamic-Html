@@ -4,8 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
     const formData = {};
     const formFields = document.querySelectorAll("#form-container input");
     formFields.forEach((field) => {
+      console.log(field);
       formData[field.name] = field.value;
     });
+    console.log(formData);
   }
   const form = document.getElementById("my-form");
   form.addEventListener("submit", handleSubmit);
